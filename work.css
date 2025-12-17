@@ -1,0 +1,134 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+
+            background: black;
+            box-sizing: border-box;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+
+        header ul a:hover {
+            background-color: red;
+            color: white;
+        }
+
+        header ul li {
+            border-radius: 10px;
+            padding: 5px;
+            margin-left: 20px;
+            list-style: none;
+            margin-top: 10px;
+            font-weight: 600;
+        }
+
+        header {
+            background-color: whitesmoke;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        header ul {
+            display: flex;
+        }
+
+        header ul li a {
+            text-decoration: none;
+            color: black;
+            padding: 3px;
+            border-radius: 5px;
+        }
+
+        .vidou video {
+            width: 60%;
+            height: 50%;
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+            text-align: center;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: repeat(1, 1);
+            height: 100vh;
+            text-align: center;
+
+
+        }
+
+        .section-py {
+            background: linear-gradient(270deg, #ff00cc, #00ffcc);
+            padding-top: 30px;
+
+        }
+
+        .secktion-java {
+            padding-top: 30px;
+            height: 100%;
+            background: linear-gradient(500deg, yellow, black, yellowgreen);
+        }
+
+
+
+        .section-html {
+            padding-top: 30px;
+            background: linear-gradient(270deg, green, white, black);
+        }
+
+        .ptn-p {
+            padding: 10px;
+            font-weight: 700;
+            font-size: x-large;
+            max-width: 100%;
+            animation: ptn-p 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes ptn-p {
+
+            from {
+                transform: translateX(40px);
+            }
+
+            to {
+                transform: translateX(0px);
+            }
+        }
+
+
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            font-size: small;
+            align-items: center;
+            padding: 5px;
+            color: white;
+            background: linear-gradient(270deg, #ff00cc, #111, #00ffcc);
+            background-size: 300% 300%;
+            animation: eeee 3s infinite;
+            border-radius: 10px 10px   0 0;
+        }
+
+        @keyframes eeee {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+
+           
+        }
