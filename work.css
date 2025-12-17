@@ -46,14 +46,14 @@
             border-radius: 5px;
         }
 
-        .vidou video {
+                .vidou iframe {
             width: 60%;
             height: 50%;
             border-radius: 10px;
             max-width: 100%;
             height: auto;
             text-align: center;
-        }
+                }
 
         main {
             display: grid;
@@ -132,3 +132,4 @@
 
            
         }
+
